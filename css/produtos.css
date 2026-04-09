@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(#FCBEB3, #FF7D66, #FF5B3D);
+}
+header{
+    background-color: transparent;
+    padding: 10px 0 10px 0;
+    box-shadow: 5px 5px 15px;
+}
+.logo{
+    width: 10%;
+    margin-left: 10%;
+}
+nav{
+    color: aliceblue;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    right: 3%;
+}
+nav li{
+    display: inline;
+    margin-right: 60px;
+}
+.divHeader{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+
+.titulo_produtos{
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: cursive;
+    list-style: none;
+
+}
+.titulo_produtos li::before{
+    content: "😶‍🌫️";
+}
+
+
+.logo_produtos {
+    width: 5%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.preco{
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+
+footer{
+    padding: 0px 10px 19px 10px;
+    background: url("../img/fundoFooter.png");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+}
+
+.image_footer{
+    width: 10%;
+    padding-left: 85%;
+}
+
+footer p {
+    color: aliceblue;
+    text-align: right;
+
+}
+footer a {
+    color: aliceblue;
+}
