@@ -83,6 +83,12 @@ a{
     color: #27ae60;
 }
 
+.data{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
 
 footer{
     padding: 0px 10px 19px 10px;

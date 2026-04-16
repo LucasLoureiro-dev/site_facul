@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
     <link rel="stylesheet" href="../css/produtos.css">
-    <link rel="stylesheet" href="../ola.js">
+    <script>
+        // alert("conheça nossos produtos")
+    </script>
 </head>
-
-
-
-<style>
-
-</style>
 
 <body>
     <header>
@@ -29,13 +25,20 @@
             </nav>
         </div>
     </header>
-
     <main>
         <ul class="titulo_produtos">
             <li>
                 Produtos
             </li>
         </ul>
+        <p class="data">
+            <script type="text/javaScript">
+                diaSemana = new Array("Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sabado");
+                mes =       new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+                data = new Date()
+                document.write(diaSemana[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear())
+                </script>
+        </p>
         <div class="container">
             <div class="card">
                 <img src="../img/produto01.jpg" alt="">
@@ -55,7 +58,7 @@
                 <p>Num ta mais ganhando corrida, pode levar</p>
                 <p class="preco">R$9,99</p>
             </div>
-            
+
         </div>
         <div class="container">
             <div class="card">
@@ -76,7 +79,6 @@
                 <p>brinquedos dos brainrots</p>
                 <p class="preco">R$30,00</p>
             </div>
-            
         </div>
     </main>
     <footer>
